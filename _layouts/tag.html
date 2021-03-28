@@ -12,9 +12,10 @@ more-css:
     <div class="row justify-content-center">
       <div class="col-12 col-sm-8 tag-nav">
         <div class="text">
-          Chọn bài viết bạn muốn xem
+          Choose the tag you wanna see its posts
         </div>
         {% assign tag_src = '/tags/' | append: page.nav %}
+        {% include tag-list.html src=tag_src %}
       </div>
       {% for tag in site.tags %}
         {% for tagData in site.data.tag[page.nav] %}

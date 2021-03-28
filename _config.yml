@@ -1,29 +1,29 @@
-title: Hiếu nè
-description: Blog của Hiếu
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "ahihi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+title: TaniaJekyll
+description: Beautiful personal Jekyll theme
+baseurl: "/TaniaJekyll" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 title-separator: "-"
 
 author:
-  name: Blog của Hiếu
-  github: hieuphan2708
-  facebook: hieu.baby
-  email: pnhieu.stu14@medvnu.edu.vn
+  name: TaniaJekyll
+  github: dinhanhthi
+  facebook: math2it
+  email: dinhanhthi@gmail.com
 
 
 # Build settings
-timezone: "Asia/Ho_Chi_Minh"
+timezone: "Europe/Paris"
 markdown: kramdown
 kramdown:
   input: GFM
 highlighter: rouge
 permalink: /:categories/:title
 # paginate: 24
-# paginate_path: "/chuyende/page-:num"
+# paginate_path: "/thought/page-:num"
 
 # Facebook App ID
-# fb_app_id: "208703010516551"
+# fb_app_id: ""
 
 sass:
   style: compact
@@ -34,4 +34,4 @@ exclude:
   - CNAME
 
 plugins:
-  - jekyll-sitemap
+  - jekyll-feed

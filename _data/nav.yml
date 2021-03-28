@@ -1,31 +1,31 @@
 # name used as "fa-{{name}}"
-- title: "Trang chủ"
+- title: Home
   url: /
   icon: fa-home
   name: home
   color: ffeead
-- title: "Chuyên đề"
-  url: /chuyende
-  icon: fa-language
-  name: chuyende
-  color: bd96f6
-- title: "Khám phá"
-  url: /
-  icon: fa-magic
+- title: Tutorial
+  url: /tutorial
+  icon: fa-map-o
   name: tutorial
   color: fc5d76
-- title: "Công cụ"
-  url: /
-  icon: fa-cogs
+- title: Reading
+  url: /reading
+  icon: fa-book
   name: reading
   color: 5eeda3
-- title: "Ghi chú"
-  url: /
-  icon: fa-edit
-  name: sketch
-  color: fdb54b
-- title: "Giới thiệu"
+- title: Me
   url: /about
   icon: fa-heart-o
   name: about
   color: 3292f6
+- title: Sketch
+  url: /sketch
+  icon: fa-pencil
+  name: sketch
+  color: fdb54b
+- title: Thought
+  url: /thought
+  icon: fa-commenting-o
+  name: thought
+  color: bd96f6
