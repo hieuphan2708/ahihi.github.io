@@ -1,5 +1,5 @@
 update:
-  en: "cập nhật"
+  en: "updated"
   vn: "cập nhật"
 mycv:
   en: "My CV"
@@ -9,8 +9,8 @@ mynote:
   vn: "Ghi chú của Thi"
 nav:
   home:
-    en: "Trang chủ"
-    vn: "Trang chủ"
+    en: "Home"
+    vn: "Home"
   tutorial:
     en: "Tutorials"
     vn: "Toán Tin"
@@ -20,22 +20,22 @@ nav:
   sketch:
     en: "Sketches"
     vn: "Vẽ vời"
-  chuyende:
+  thought:
     en: "My notes"
     vn: "Tạp ghi"
 index:
   intro:
-    en: "Everyday is filled with devotion in our quest to polish ourselves to our brightest"
-    vn: "Everyday is filled with devotion in our quest to polish ourselves to our brightest"
+    en: "Hi! I'm a beautiful jekyll template for your personal website. I have many layouts which are <span class=\"tgreen\">flexible</span> & <span class=\"tgreen\">clear</span> for different purposes."
+    vn: "Chào bạn! Tôi là <span style=\"color: #fff;\">Thi</span>, một người thích Toán, thích lập trình và không ngừng tự học. Trên trang này, tôi muốn chia sẻ với bạn những thứ <span class=\"tgreen\">hay ho</span> và <span class=\"tgreen\">bổ ích</span> tôi biết được."
   about:
-    en: "Giới thiệu"
+    en: "About"
     vn: "Về tôi"
 section:
   project:
-    en: "Dự án gần đây"
+    en: "Recent projects"
     vn: "Dự án gần đây"
     more:
-      en: "xem tất cả"
+      en: "see others"
       vn: "xem tất cả"
   reading: 
     en: "Books I've just read"
@@ -61,14 +61,14 @@ section:
     more:
       en: "see other ones"
       vn: "xem những hình khác"
-  chuyende:
+  thought:
     more:
-      en: "xem thêm"
-      vn: "xem thêm"
+      en: "see others"
+      vn: "xem thêm nhiều hơn"
 footer:
   support_text:
-    en: "Xin cảm ơn mọi người đã ghé thăm blog này. Đây là blog để mình lưu lại những thứ “may mắn” được đọc trong quãng đời sinh viên y khoa"
-    vn: "Xin cảm ơn mọi người đã ghé thăm blog này. Đây là blog để mình lưu lại những thứ “may mắn” được đọc trong quãng đời sinh viên y khoa"
+    en: "With the internet, people can learn anything. I'd like to share with you one of the best and useful stuffs so that you can save your time on a self-study path."
+    vn: "Với internet, con người có thể học được mọi thứ. Tôi muốn chia sẻ với bạn một trong những tài nguyên hữu dụng và hiệu quả nhất để bạn có thể tiết kiệm thời gian của mình trên con đường tự học hỏi."
   support_button:
     en: "Support Thi"
     vn: "Ủng hộ Thi"
@@ -99,7 +99,7 @@ search:
     en: "Type something..."
     vn: "Gõ từ khóa bạn cần..."
   title: 
-    en: "Tìm kiếm"
+    en: "Search"
     vn: "Tìm kiếm"
   loading:
     en: "Loading"
@@ -123,5 +123,5 @@ social:
     vn: "xem hoạt động của tôi trên"
 more_post:
   title:
-    en: "Các bài viết cùng chủ đề"
-    vn: "Các bài viết cùng chủ đề"
+    en: "You may like?"
+    vn: "Có thể bạn quan tâm?"
