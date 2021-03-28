@@ -1,0 +1,31 @@
+# name used as "fa-{{name}}"
+- title: "Trang chủ"
+  url: /
+  icon: fa-home
+  name: home
+  color: ffeead
+- title: "Chuyên đề"
+  url: /chuyende
+  icon: fa-language
+  name: chuyende
+  color: bd96f6
+- title: "Khám phá"
+  url: /
+  icon: fa-magic
+  name: tutorial
+  color: fc5d76
+- title: "Công cụ"
+  url: /
+  icon: fa-cogs
+  name: reading
+  color: 5eeda3
+- title: "Ghi chú"
+  url: /
+  icon: fa-edit
+  name: sketch
+  color: fdb54b
+- title: "Giới thiệu"
+  url: /about
+  icon: fa-heart-o
+  name: about
+  color: 3292f6

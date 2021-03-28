@@ -1,0 +1,21 @@
+# site's components
+favicon: /img/favicon.ico
+
+# Author's information
+author:
+  avatar: /img/avatar.png
+
+# number of challenge books
+ncb: 10
+ncb-year: "2018"
+
+# site's language
+lang:
+  current: en # current site's language
+  other_url: # other language
+
+# disqus shortname
+disqus: hieuphan2708
+
+# number of photo files in /img/sketch
+nsketch: 1

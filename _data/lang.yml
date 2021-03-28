@@ -1,0 +1,127 @@
+update:
+  en: "cập nhật"
+  vn: "cập nhật"
+mycv:
+  en: "My CV"
+  vn: "CV của Thi"
+mynote:
+  en: "My Notes"
+  vn: "Ghi chú của Thi"
+nav:
+  home:
+    en: "Trang chủ"
+    vn: "Trang chủ"
+  tutorial:
+    en: "Tutorials"
+    vn: "Toán Tin"
+  reading:
+    en: "Reading"
+    vn: "Tôi đọc"
+  sketch:
+    en: "Sketches"
+    vn: "Vẽ vời"
+  chuyende:
+    en: "My notes"
+    vn: "Tạp ghi"
+index:
+  intro:
+    en: "Everyday is filled with devotion in our quest to polish ourselves to our brightest"
+    vn: "Everyday is filled with devotion in our quest to polish ourselves to our brightest"
+  about:
+    en: "Giới thiệu"
+    vn: "Về tôi"
+section:
+  project:
+    en: "Dự án gần đây"
+    vn: "Dự án gần đây"
+    more:
+      en: "xem tất cả"
+      vn: "xem tất cả"
+  reading: 
+    en: "Books I've just read"
+    vn: "Sách tôi vừa đọc"
+    more:
+      en: "see other books"
+      vn: "xem toàn bộ sách"
+  tutorial:
+    en: "Tutorials"
+    vn: "Toán học và công nghệ"
+    more:
+      en: "see full list"
+      vn: "xem đầy đủ"
+  mynote:
+    en: "My notes"
+    vn: "Ghi chú của tôi"
+    more: 
+      en: "You cannot remember everything."
+      vn: "Bạn không thể nhớ hết mọi điều."
+  sketch:
+    en: "Latest sketches"
+    vn: "Hình vẽ gần đây"
+    more:
+      en: "see other ones"
+      vn: "xem những hình khác"
+  chuyende:
+    more:
+      en: "xem thêm"
+      vn: "xem thêm"
+footer:
+  support_text:
+    en: "Xin cảm ơn mọi người đã ghé thăm blog này. Đây là blog để mình lưu lại những thứ “may mắn” được đọc trong quãng đời sinh viên y khoa"
+    vn: "Xin cảm ơn mọi người đã ghé thăm blog này. Đây là blog để mình lưu lại những thứ “may mắn” được đọc trong quãng đời sinh viên y khoa"
+  support_button:
+    en: "Support Thi"
+    vn: "Ủng hộ Thi"
+  about:
+    en: "About"
+    vn: "Giới thiệu"
+contact:
+  title: 
+    en: "Give me a talk"
+    vn: "Liên hệ"
+  more: 
+    en: "looking forward to getting your idea"
+    vn: "rất mong nhận được phản hồi của bạn"
+  name:
+    en: "Your name"
+    vn: "Tên của bạn"
+  email: 
+    en: "Your email"
+    vn: "Email của bạn"
+  message: 
+    en: "What you wanna say"
+    vn: "Nội dung thư"
+  send: 
+    en: "Send it to me"
+    vn: "Gởi thư"
+search:
+  placeholder:
+    en: "Type something..."
+    vn: "Gõ từ khóa bạn cần..."
+  title: 
+    en: "Tìm kiếm"
+    vn: "Tìm kiếm"
+  loading:
+    en: "Loading"
+    vn: "Đang tải"
+  result:
+    en: "results"
+    vn: "kết quả"
+  for_key: 
+    en: "for the keyword"
+    vn: "cho từ khóa"
+  js:
+    show:
+      en: "Showing"
+      vn: "Hiển thị"
+    no:
+      en: "No"
+      vn: "Không có"
+social:
+  title: 
+    en: "find me on"
+    vn: "xem hoạt động của tôi trên"
+more_post:
+  title:
+    en: "Các bài viết cùng chủ đề"
+    vn: "Các bài viết cùng chủ đề"

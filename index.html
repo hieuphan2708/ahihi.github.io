@@ -1,0 +1,83 @@
+---
+layout: base
+title: Hiếu nè
+subtitle: Trang blog của Hiếu
+nav: home
+lang: vi
+css:
+  - "/css/index.css"
+  - "/css/sketch.css"
+  - "/css/lightbox.min.css"
+  - "/css/post-layout.css"
+  - "/css/about.css"
+  - "/css/chuyende.css"
+js:
+  - "/js/lightbox-plus-jquery.min.js"
+---
+
+{% include header.html type="index" %}
+
+<!-- quotes -->
+<section id="idx-quotes" class="alt-color section text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 offset-sm-2 col-12">
+        <script type="text/javascript">
+          var randomIndex;
+          var quoteContent;
+          var quoteAuthor;
+          var quoteProfile;
+          randomIndex = Math.floor(Math.random() * quotesContent.length);
+          quoteContent = quotesContent[randomIndex];
+          quoteAuthor = quotesAuthor[randomIndex];
+          quoteProfile = quotesProfile[randomIndex];
+          document.write(
+            '<p class="quote-content">' + 
+              quoteContent +
+            '</p>'
+          );
+          if (quoteProfile != "nolink"){
+            document.write(
+              '<p class="quote-author mb-1">' + 
+                '<a target="_blank" href="' + quoteProfile + '"> &#x2015; ' +
+                  quoteAuthor +
+                ' &#x2015;</a>' +
+              '</p>'
+            );
+          } else{
+            document.write(
+              '<p class="quote-author mb-1">' + 
+                '<span>&#x2015; ' + quoteAuthor + ' &#x2015;</span>' +
+              '</p>'
+            );
+          }
+        </script>
+        <p class="quote-more">
+          (<a href="{{site.baseurl}}/quote">see other quotes</a>)
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- projects -->
+<section id="idx-project" class="alt-color section">
+  <div class="container mb-4">
+    {% include sec-title.html title="Các dự án chính" href="/project" %}
+    <div class="row justify-content-center">
+      {% assign element-source = site.data.project %}
+      {% include post-layout.html type="project" img-src="/img/project" source=element-source offset=0 limit=4 %}
+    </div>
+  </div>
+</section>
+
+<!-- chuyende2 -->
+<section class="alt-color section">
+  <div class="container mb-5">
+    {% include sec-title.html title="Bài viết y khoa tham khảo" href="/chuyende" more="xem thêm tại đây" %}
+    <div class="row row-eq-height justify-content-center">
+      {% assign element-source = site.categories.chuyende %}
+      {% include post-layout.html type="chuyende2" source=element-source offset=0 img-src="/img/chuyende" limit=4 %}
+    </div>
+  </div>
+</section>
